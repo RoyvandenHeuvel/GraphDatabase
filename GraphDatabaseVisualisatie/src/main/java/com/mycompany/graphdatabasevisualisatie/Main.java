@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.graphdatabasevisualisatie;
 
 import java.util.ArrayList;
@@ -10,7 +5,7 @@ import processing.core.PApplet;
 
 /**
  *
- * @author Roy van den Heuvel
+ * @author Roy van den Heuvel & Joey van Venrooij
  */
 public class Main extends PApplet {
 
@@ -19,20 +14,15 @@ public class Main extends PApplet {
 
     public static void main(String[] args) {
         Parser p = new Parser();
-
         people = decideLocations(p.people);
-
         PApplet.main(new String[]{Main.class.getName()});
-
     }
 
     private static ArrayList<Person> decideLocations(ArrayList<Person> people) {
         double squaredAsDouble = Math.sqrt(people.size());
         int squared = (int) Math.ceil(squaredAsDouble);
         ArrayList<Person> peopleWithCoordinates = new ArrayList();
-
         int k = 0;
-
         for (int i = 0; i < squared; i++) {
             for (int j = 0; j < squared; j++) {
                 if (k < people.size()) {
@@ -53,9 +43,7 @@ public class Main extends PApplet {
             }
             k++;
         }
-
         return peopleWithCoordinates;
-
     }
 
     @Override
@@ -81,7 +69,6 @@ public class Main extends PApplet {
     }
 
     public void drawConnections(Person p) {
-
         ArrayList<Integer> friends = p.getFriends();
         for (int i = 0; i < friends.size(); i++) {
             for (Person per : people) {
@@ -90,7 +77,6 @@ public class Main extends PApplet {
                     line(p.getCoordinatesOnScreen()[0], p.getCoordinatesOnScreen()[1], per.getCoordinatesOnScreen()[0], per.getCoordinatesOnScreen()[1]);
                 }
             }
-
         }
     }
 

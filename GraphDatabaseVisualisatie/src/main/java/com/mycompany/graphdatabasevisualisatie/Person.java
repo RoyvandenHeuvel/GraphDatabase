@@ -1,18 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.graphdatabasevisualisatie;
 
 import java.util.ArrayList;
-import org.json.JSONObject;
 
 /**
  *
- * @author Roy van den Heuvel
+ * @author Roy van den Heuvel & Joey van Venrooij
  */
 public class Person {
+
     private String firstName;
     private String lastName;
     private String gender;
@@ -21,9 +16,6 @@ public class Person {
     private ArrayList<Integer> friends;
     private int[] coordinatesOnScreen;
 
-    
-    
-    
     public String getFirstName() {
         return firstName;
     }
@@ -79,5 +71,5 @@ public class Person {
     public void setCoordinatesOnScreen(int[] coordinatesOnScreen) {
         this.coordinatesOnScreen = coordinatesOnScreen;
     }
-    
+
 }

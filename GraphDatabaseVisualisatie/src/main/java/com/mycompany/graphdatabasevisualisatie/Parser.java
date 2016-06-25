@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.graphdatabasevisualisatie;
 
 import java.io.BufferedReader;
@@ -15,7 +10,7 @@ import org.json.JSONObject;
 
 /**
  *
- * @author Roy van den Heuvel
+ * @author Roy van den Heuvel & Joey van Venrooij
  */
 public class Parser {
 
@@ -43,9 +38,7 @@ public class Parser {
         }
     }
 
-    public ArrayList<Person> jsonArrayToPersonArrayList(JSONArray arr) {
-        ArrayList<Person> people = new ArrayList();
-
+    private ArrayList<Person> jsonArrayToPersonArrayList(JSONArray arr) {
         for (Object obj : arr) {
             JSONObject jsonObj = (JSONObject) obj;
 
