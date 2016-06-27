@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -14,7 +15,7 @@ import org.json.JSONObject;
  */
 public class Parser {
 
-    public ArrayList<Person> people;
+    private List<Person> people = new ArrayList();
 
     public Parser() {
 
@@ -37,8 +38,12 @@ public class Parser {
             e.printStackTrace();
         }
     }
+    
+    public List<Person> getPeople(){
+        return people;
+    }
 
-    private ArrayList<Person> jsonArrayToPersonArrayList(JSONArray arr) {
+    private List<Person> jsonArrayToPersonArrayList(JSONArray arr) {
         for (Object obj : arr) {
             JSONObject jsonObj = (JSONObject) obj;
 

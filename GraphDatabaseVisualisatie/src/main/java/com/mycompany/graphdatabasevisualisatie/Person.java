@@ -1,6 +1,7 @@
 package com.mycompany.graphdatabasevisualisatie;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -56,12 +57,12 @@ public class Person {
         this.age = age;
     }
 
-    public ArrayList<Integer> getFriends() {
+    public List<Integer> getFriends() {
         return friends;
     }
 
-    public void setFriends(ArrayList<Integer> friends) {
-        this.friends = friends;
+    public void setFriends(List<Integer> friends) {
+        this.friends = (ArrayList) friends;
     }
 
     public int[] getCoordinatesOnScreen() {

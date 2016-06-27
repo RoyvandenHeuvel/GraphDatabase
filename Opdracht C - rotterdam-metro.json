@@ -1,0 +1,614 @@
+[
+  {
+    "id": 1,
+    "name": "Den Haag Centraal",
+    "connected": [
+      2
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+   {
+    "id": 2,
+    "name": "Laan van NOI",
+    "connected": [
+      1,
+	  3
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Voorburg t loo",
+    "connected": [
+      2,4
+    ]
+	,    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Leidschendam-Voorburg",
+    "connected": [
+      3,5
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Forepark",
+    "connected": [
+      4,6
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Den Haag Centraal",
+    "connected": [
+      5,7
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Leidschenveen",
+    "connected": [
+      7,8
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Nootdorp",
+    "connected": [
+      7,9
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Pijnacker centrum",
+    "connected": [
+      8,10
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Pijnacker Zuid",
+    "connected": [
+      9,11
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Berkel Westpolder",
+    "connected": [
+      10,12
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Rodenrijs",
+    "connected": [
+      11,13
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Meijersplein",
+    "connected": [
+      12,14
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Melachthonweg",
+    "connected": [
+      13,15
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },  {
+    "id": 15,
+    "name": "Blijdorp",
+    "connected": [
+      14,16
+    ],    
+	"metroLine": [
+      "E"
+    ]
+  },
+   {
+    "id": 16,
+    "name": "Rotterdam Centaal",
+    "connected": [
+      15,17
+    ],    
+	"metroLine": [
+      "D","E"
+    ]
+  },
+   {
+    "id": 17,
+    "name": "Stadshuis",
+    "connected": [
+      16,18
+    ],    
+	"metroLine": [
+      "D","E"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Beurs",
+    "connected": [
+      17,19 todo
+    ],    
+	"metroLine": [
+      "A","B","C","D","E"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Leuvehaven",
+    "connected": [
+      18,20
+    ],    
+	"metroLine": [
+      "D","E"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Wilhelminaplein",
+    "connected": [
+      19,21
+    ],    
+	"metroLine": [
+      "D","E"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Rijnhaven",
+    "connected": [
+      20,22
+    ]
+	,    
+	"metroLine": [
+      "D","E"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Maashaven",
+    "connected": [
+      21,23
+    ],    
+	"metroLine": [
+      "D","E"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Zuidplein",
+    "connected": [
+      22,24
+    ],    
+	"metroLine": [
+      "D","E"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Slinge",
+    "connected": [
+      23,25
+    ],    
+	"metroLine": [
+      "D","E"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Rhoon",
+    "connected": [
+      24,26
+    ],    
+	"metroLine": [
+      "D"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Poortugaal",
+    "connected": [
+      25,27
+    ],    
+	"metroLine": [
+      "D"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Tussenwater",
+    "connected": [
+      26,28,33
+    ],    
+	"metroLine": [
+      "C","D"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Hoogvliet",
+    "connected": [
+      27,28
+    ],    
+	"metroLine": [
+      "C","D"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Zalmplaat",
+    "connected": [
+      28,30
+    ],    
+	"metroLine": [
+      "C","D"
+    ]
+  },  {
+    "id": 30,
+    "name": "Spijkenisse Centrum",
+    "connected": [
+      29,31
+    ]
+  },
+  
+    {
+    "id": 31,
+    "name": "Heemraadlaan",
+    "connected": [
+      30,32
+    ],    
+	"metroLine": [
+      "C","D"
+    ]
+  },
+   {
+    "id": 32,
+    "name": "De akkers",
+    "connected": [
+      2
+    ],    
+	"metroLine": [
+      "C","D"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Pernis",
+    "connected": [
+      27,34
+    ],    
+	"metroLine": [
+      "C"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Vijfluizen",
+    "connected": [
+      33,35
+    ],    
+	"metroLine": [
+      "C"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Troelstralaan",
+    "connected": [
+      34,36
+    ],    
+	"metroLine": [
+      "C"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Parkweg",
+    "connected": [
+      35,37
+    ],    
+	"metroLine": [
+      "C"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Schiedam Centrum",
+    "connected": [
+      36,38
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Macroniplein",
+    "connected": [
+      37,39
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Delfshaven",
+    "connected": [
+      38,40
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Coolhaven",
+    "connected": [
+      39,41
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Dijkzigt",
+    "connected": [
+      40,42
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Eendrachtsplein",
+    "connected": [
+      18, 41
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+
+  },
+  {
+    "id": 43,
+    "name": "Blaak",
+    "connected": [
+      18, 44
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Oostplein",
+    "connected": [
+      43,45
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },  {
+    "id": 45,
+    "name": "Gerdesiaweg",
+    "connected": [
+      44,46
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },  {
+    "id": 46,
+    "name": "Voorschoterlaan",
+    "connected": [
+      45,47
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },  {
+    "id": 47,
+    "name": "Kralingse Zoom",
+    "connected": [
+      46,48
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },  {
+    "id": 48,
+    "name": "Capelsebrug",
+    "connected": [
+      47,49,52
+    ],    
+	"metroLine": [
+      "A","B","C"
+    ]
+  },  {
+    "id": 49,
+    "name": "Slotlaan",
+    "connected": [
+      48,49
+    ],    
+	"metroLine": [
+      "C"
+    ]
+  },  {
+    "id": 50,
+    "name": "Capelle Centrum",
+    "connected": [
+      49,51
+    ],    
+	"metroLine": [
+      "C"
+    ]
+  },  {
+    "id": 51,
+    "name": "De Terp",
+    "connected": [
+      50
+    ],    
+	"metroLine": [
+      "C"
+    ]
+  },  {
+    "id": 52,
+    "name": "Schenkel",
+    "connected": [
+      48,53
+    ],    
+	"metroLine": [
+      "A","B"
+    ]
+  },  {
+    "id": 53,
+    "name": "Prinsenlaan",
+    "connected": [
+      52,54
+    ],    
+	"metroLine": [
+      "A","B"
+    ]
+  },  {
+    "id": 54,
+    "name": "Oosterflank",
+    "connected": [
+      53,55
+    ],    
+	"metroLine": [
+      "A","B"
+    ]
+  },  {
+    "id": 55,
+    "name": "Alexander",
+    "connected": [
+      54,56
+    ],    
+	"metroLine": [
+      "A","B"
+    ]
+  },  {
+    "id": 56,
+    "name": "Graskruid",
+    "connected": [
+      55,57,62
+    ],    
+	"metroLine": [
+      "A","B"
+    ]
+  },  {
+    "id": 57,
+    "name": "Hesseplaats",
+    "connected": [
+      56,58
+    ],    
+	"metroLine": [
+      "B"
+    ]
+  },  {
+    "id": 58,
+    "name": "Nieuw verlaat",
+    "connected": [
+       57,59
+    ],    
+	"metroLine": [
+      "B"
+    ]
+  },  {
+    "id": 59,
+    "name": "Ambachtsland",
+    "connected": [
+      58,60
+    ],    
+	"metroLine": [
+      "B"
+    ]
+  },  {
+    "id": 60,
+    "name": "De Tochten",
+    "connected": [
+      59,60
+    ],    
+	"metroLine": [
+      "B"
+    ]
+  },  {
+    "id": 61,
+    "name": "Nesselande",
+    "connected": [
+      60
+    ],    
+	"metroLine": [
+      "B"
+    ]
+  },  {
+    "id": 62,
+    "name": "Romeyshof",
+    "connected": [
+      56,63
+    ],    
+	"metroLine": [
+      "A"
+    ]
+  }
+  ,  {
+    "id": 63,
+    "name": "Binnenhof",
+    "connected": [
+      62
+    ],    
+	"metroLine": [
+      "A"
+    ]
+  }
+]

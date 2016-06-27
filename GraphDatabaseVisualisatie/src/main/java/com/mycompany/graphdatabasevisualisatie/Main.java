@@ -14,7 +14,7 @@ public class Main extends PApplet {
 
     public static void main(String[] args) {
         Parser p = new Parser();
-        people = decideLocations(p.people);
+        people = decideLocations((ArrayList) p.getPeople());
         PApplet.main(new String[]{Main.class.getName()});
     }
 
@@ -49,7 +49,7 @@ public class Main extends PApplet {
     @Override
     public void setup() {
         size(windowSize, windowSize);
-        people.stream().forEach((p) -> {
+        people.stream().forEach(p -> {
             fill(color(255));
             ellipse(p.getCoordinatesOnScreen()[0], p.getCoordinatesOnScreen()[1], 125, 125);
             drawMiscInformation(p);
@@ -64,12 +64,12 @@ public class Main extends PApplet {
         try {
             text("Age: " + (int) p.getAge(), p.getCoordinatesOnScreen()[0] - 30, p.getCoordinatesOnScreen()[1] + 5);
         } catch (ClassCastException e) {
-            System.out.println("Person in JSON file did not have an age.");
+            System.err.println("Person did not have an age in JSON.");
         }
     }
 
     public void drawConnections(Person p) {
-        ArrayList<Integer> friends = p.getFriends();
+        ArrayList<Integer> friends = (ArrayList<Integer>) p.getFriends();
         for (int i = 0; i < friends.size(); i++) {
             for (Person per : people) {
                 if (per.getId() == friends.get(i)) {
